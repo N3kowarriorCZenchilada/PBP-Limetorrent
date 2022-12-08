@@ -1,0 +1,17 @@
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.csproj.AssemblyReference.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.AssemblyInfoInputs.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.AssemblyInfo.cs
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.csproj.CoreCompileInputs.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Release\net6.0\LimeTorrentScraper.exe
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Release\net6.0\LimeTorrentScraper.deps.json
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Release\net6.0\LimeTorrentScraper.runtimeconfig.json
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Release\net6.0\LimeTorrentScraper.dll
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Release\net6.0\LimeTorrentScraper.pdb
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Release\net6.0\HtmlAgilityPack.dll
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.csproj.CopyComplete
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.dll
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\refint\LimeTorrentScraper.dll
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.pdb
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\LimeTorrentScraper.genruntimeconfig.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Release\net6.0\ref\LimeTorrentScraper.dll

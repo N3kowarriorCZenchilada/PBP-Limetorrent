@@ -1,0 +1,5 @@
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\net6.0\LimeTorrentScraper.csproj.AssemblyReference.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\net6.0\LimeTorrentScraper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\net6.0\LimeTorrentScraper.AssemblyInfoInputs.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\net6.0\LimeTorrentScraper.AssemblyInfo.cs
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\net6.0\LimeTorrentScraper.csproj.CoreCompileInputs.cache

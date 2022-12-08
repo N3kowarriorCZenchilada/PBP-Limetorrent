@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2AWX1URIYCr9W3Sqv+vBZai7a/9r64u6QdZ8DfqSGxO5BQ607MrleVmkDSh1B5GylSWLqnZSraggKMvwOBMUsg==",
+  "success": true,
+  "projectFilePath": "D:\\Development\\LimeTorrentScraper\\LimeTorrentScraper\\LimeTorrentScraper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Frantisek Ochotny\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}
