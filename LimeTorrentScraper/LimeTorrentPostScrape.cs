@@ -11,13 +11,13 @@ namespace LimeTorrentScraper
         public static void Main(string[] args)
         {
             string userinput = args[0];
-            ScraperClasses searchRun = new ScraperClasses();
-            ScraperClasses scrapeTorrent = new ScraperClasses();
-            ScraperClasses scrapeMagnet = new ScraperClasses();
+            ScraperClasses scraperClasses = new ScraperClasses();
 
             //running search
-            string gameUrlAndTittle = searchRun.getResaultUrl(userinput);
+            string gameUrlAndTittle = scraperClasses.getResaultUrl(userinput);
             string gameUrl;
+            string magnetUrl;
+            string torrentUrl;  
             string title;
 
             //Getting url of searched game from string with name and url in ""
@@ -29,6 +29,9 @@ namespace LimeTorrentScraper
             title = gameUrlAndTittle.Substring(gameUrlAndTittle.LastIndexOf('"'));
             title = title.Remove(0, 1);
 
+            //Getting game's link from game url
+            torrentUrl = scraperClasses.getTorrentUrl(gameUrl);
+            magnetUrl = scraperClasses.getMagnetUrl(gameUrl);
 
 
         
