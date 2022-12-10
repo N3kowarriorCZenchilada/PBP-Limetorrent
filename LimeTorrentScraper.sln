@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeTorrentScraper", "LimeTorrentScraper\LimeTorrentScraper.csproj", "{EF8A478C-43F4-4809-AE32-BE87A13CF62F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeTorrentScraper", "LimeTorrentScraper\LimeTorrentScraper.csproj", "{C2478889-A003-4731-BD41-5C19768650D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF8A478C-43F4-4809-AE32-BE87A13CF62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF8A478C-43F4-4809-AE32-BE87A13CF62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF8A478C-43F4-4809-AE32-BE87A13CF62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF8A478C-43F4-4809-AE32-BE87A13CF62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2478889-A003-4731-BD41-5C19768650D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2478889-A003-4731-BD41-5C19768650D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2478889-A003-4731-BD41-5C19768650D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2478889-A003-4731-BD41-5C19768650D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0C199F16-D1DC-4049-B758-F1A630244595}
+		SolutionGuid = {7A528ACA-1A63-4EE6-B21A-C547A3AFAA10}
 	EndGlobalSection
 EndGlobal
