@@ -19,12 +19,20 @@ namespace LimeTorrentScraper
             HtmlWeb Web = new HtmlWeb();
             var Doc = Web.Load(searchUrl);
             var Note = Doc.DocumentNode.SelectNodes("/html/body/div/div[6]/div[1]/table[2]/tbody/tr[2]/td[1]/div[1]/a[2]");
-            string gameUrlAndTitle = Note.ToString();
-            gameUrlAndTitle = gameUrlAndTitle.Substring(gameUrlAndTitle.Length - 4);
-            gameUrlAndTitle = gameUrlAndTitle.Remove(0, 8);
-            gameUrlAndTitle = gameUrlAndTitle.Replace(">", string.Empty);
-            Console.WriteLine("if no error passed getting game url was succesfull ");
-            return gameUrlAndTitle;
+            if (Note != null)
+            {
+                string gameUrlAndTitle = Note.ToString();
+                gameUrlAndTitle = gameUrlAndTitle.Substring(gameUrlAndTitle.Length - 4);
+                gameUrlAndTitle = gameUrlAndTitle.Remove(0, 8);
+                gameUrlAndTitle = gameUrlAndTitle.Replace(">", string.Empty);
+                Console.WriteLine("if no error passed getting game url was succesfull ");
+                return gameUrlAndTitle;
+            }
+            else
+            {
+                return null;
+            }
+        
         }
 
         //V úpravách - In development
@@ -35,12 +43,18 @@ namespace LimeTorrentScraper
             HtmlWeb Web = new HtmlWeb();
             var Doc = Web.Load(searchUrl);
             var Note = Doc.DocumentNode.SelectNodes("/html/body/div/div[6]/div[1]/div[1]/div[1]/div/div[2]/div/p/a");
-            string torrentLink = Note.ToString();
-            torrentLink = torrentLink.Remove(0, 8);
-            torrentLink = torrentLink.Remove(torrentLink.Length - 20);
-            torrentLink = torrentLink.Replace(char.ToString('"'), string.Empty);
-            Console.WriteLine("if no error passed getting torrent url was succesfull ");
-            return torrentLink;
+            if (Note != null)
+            {
+                string torrentLink = Note.ToString();
+                torrentLink = torrentLink.Remove(0, 8);
+                torrentLink = torrentLink.Remove(torrentLink.Length - 20);
+                torrentLink = torrentLink.Replace(char.ToString('"'), string.Empty);
+                return torrentLink;
+            }
+            else
+            {
+                return null;
+            }
         }
         public string getMagnetUrl(string gameUrl)
         {
@@ -49,12 +63,18 @@ namespace LimeTorrentScraper
             HtmlWeb Web = new HtmlWeb();
             var Doc = Web.Load(searchUrl);
             var Note = Doc.DocumentNode.SelectNodes("/html/body/div/div[6]/div[1]/div[1]/div[1]/div/div[4]/div/p/a");
-            string magnetLink = Note.ToString();
-            magnetLink = magnetLink.Remove(0, 8);
-            magnetLink = magnetLink.Remove(magnetLink.Length - 21);
-            magnetLink = magnetLink.Replace(char.ToString('"'), string.Empty);
-            Console.WriteLine("if no error passed getting game url was succesfull ");
-            return magnetLink;
+            if (Note != null)
+            {
+                string magnetLink = Note.ToString();
+                magnetLink = magnetLink.Remove(0, 8);
+                magnetLink = magnetLink.Remove(magnetLink.Length - 21);
+                magnetLink = magnetLink.Replace(char.ToString('"'), string.Empty);
+                return magnetLink;
+            }
+            else
+            {
+                return null;
+            }
         }
 
 

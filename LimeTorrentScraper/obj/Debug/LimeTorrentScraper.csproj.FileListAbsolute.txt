@@ -1,0 +1,12 @@
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Debug\LimeTorrentScraper.exe.config
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Debug\LimeTorrentScraper.exe
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Debug\LimeTorrentScraper.pdb
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Debug\HtmlAgilityPack.dll
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Debug\HtmlAgilityPack.pdb
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\bin\Debug\HtmlAgilityPack.xml
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\LimeTorrentScraper.csproj.AssemblyReference.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\LimeTorrentScraper.csproj.SuggestedBindingRedirects.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\LimeTorrentScraper.csproj.CoreCompileInputs.cache
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\LimeTorrentScraper.csproj.CopyComplete
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\LimeTorrentScraper.exe
+D:\Development\LimeTorrentScraper\LimeTorrentScraper\obj\Debug\LimeTorrentScraper.pdb
