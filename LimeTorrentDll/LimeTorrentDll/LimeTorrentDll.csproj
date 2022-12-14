@@ -1,68 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{74186DE9-531F-445F-89D4-3DDD1637FE04}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LimeTorrentDll</RootNamespace>
-    <AssemblyName>LimeTorrentDll</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="LimeTorrentDll.cs" />
-    <Compile Include="Project Black Pearl.SDK\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
-    <Compile Include="Project Black Pearl.SDK\obj\Debug\net6.0\Project Black Pearl.SDK.AssemblyInfo.cs" />
-    <Compile Include="Project Black Pearl.SDK\obj\Debug\net6.0\Project Black Pearl.SDK.GlobalUsings.g.cs" />
-    <Compile Include="Project Black Pearl.SDK\PBPPlugin.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Project Black Pearl.SDK\obj\Debug\net6.0\Project Black Pearl.SDK.AssemblyInfoInputs.cache" />
-    <None Include="Project Black Pearl.SDK\obj\Debug\net6.0\Project Black Pearl.SDK.csproj.AssemblyReference.cache" />
-    <None Include="Project Black Pearl.SDK\obj\Debug\net6.0\Project Black Pearl.SDK.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="Project Black Pearl.SDK\obj\Project Black Pearl.SDK.csproj.nuget.dgspec.json" />
-    <None Include="Project Black Pearl.SDK\obj\Project Black Pearl.SDK.csproj.nuget.g.props" />
-    <None Include="Project Black Pearl.SDK\obj\Project Black Pearl.SDK.csproj.nuget.g.targets" />
-    <None Include="Project Black Pearl.SDK\obj\project.assets.json" />
-    <None Include="Project Black Pearl.SDK\obj\project.nuget.cache" />
-    <None Include="Project Black Pearl.SDK\Project Black Pearl.SDK.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Project Black Pearl.SDK\bin\Debug\net6.0\" />
-    <Folder Include="Project Black Pearl.SDK\obj\Debug\net6.0\refint\" />
-    <Folder Include="Project Black Pearl.SDK\obj\Debug\net6.0\ref\" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+
 </Project>
